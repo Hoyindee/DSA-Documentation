@@ -28,9 +28,9 @@ The Primary source of Data used here is a CSV Data file from DSA Data Analysis T
 * Order Status
 
 ### Tools Used
-- Ms Excel [download here]{https://www.office.com}
+- Ms Excel [download here](https://www.office.com)
    - Data Cleaning and Preparation
-- SQL Server
+- SQL Server [download here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?ocid=ORSEARCH_Bing&msockid=37f37467cc0868f21a926184cd15692a)
    - For Querying and Analysis
 
 ### Data cleaning/Preparation
@@ -119,7 +119,8 @@ It was a large data set with some column tha were not useful for my analysis. Un
 ### Reference
 
 - DSA CLASS SERIES ON SQL
-- 
+- 20 strategies to increase revenue [link](https://www.indeed.com/career-advice/career-development/increase-revenues)
+- Tips for effectively managing a retail store [link](https://www.indeed.com/recruitment/c/info/effectively-managing-retail-store)
 
 
 
