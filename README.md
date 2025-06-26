@@ -28,7 +28,7 @@ The Primary source of Data used here is a CSV Data file from DSA Data Analysis T
 * Order Status
 
 ### Tools Used
-- Ms Excel [Download Here]{https://www.microsoftexcel.com}
+- Ms Excel [Download Here]{https://www.microsoft.com}
    - Data Cleaning and Preparation
 - SQL Server
    - For Querying and Analysis
