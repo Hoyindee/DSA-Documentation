@@ -2,11 +2,23 @@
 
 This is where I started building my portfolio after classes are done via the Incubator Hub
 
-I have Learnt quite a number of things ranging from Microsoft Excel to SQL down to use of Power BI and even Portfolio building
+
 
 ## PROJECT TOPIC: KULTRA MEGA STORE ANALYSIS
 
-### PROJECT OVERVIEW
+## TABLE OF CONTENT
+  - [Project Overview](#project-overview)
+  - [Data Sources](#data-sources)
+  - [Tools Used](#tools-used)
+  - [Data Cleaning/Preparation](#data-cleaningpreparation)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Data Analysis](#data-analysis)
+  - [Results/Findings](#resultsfindings)
+  - [Recommendation](#recommendation)
+  - [Limitation](#limitation)
+  - [Reference](#reference)
+
+### Project Overview
 
 This Data analysis project aims to generate insight on sales performance for a mega store specialized in Office supplies and Furniture from 2009 to 2012. By analyzing various parameters in the data received, enough for thorough findings and insights to make an informed decision and more logical course of action.
 
@@ -15,13 +27,13 @@ The Primary source of Data used here is a CSV Data file from DSA Data Analysis T
 * KMS SQL Case Study
 * Order Status
 
-### Tools Used 
+### Tools Used
 - Ms Excel 
    - Data Cleaning and Preparation
 - SQL Server
    - For Querying and Analysis
 
-### Data cleaning/preparation
+### Data cleaning/Preparation
 1. 	Data Loading and Inspection
 2. 	Check for missing Values
 
