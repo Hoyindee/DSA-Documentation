@@ -61,17 +61,41 @@ This Analysis result is summarized as follow:
 ### Recommendation
 Base on the analysis, we recommend the following actions:
 
-•	**Discounting Customers should be Revised**
-- A policy should be implemented that guides the application of discount in sales for an agreed number of Orders, anything below should not be applied.
--Only if the Profit Margin is high then discount should be considered.
+- **Discounting Customers should be Revised**
+    - A policy should be implemented that guides the application of discount in sales for an agreed number of Orders, anything below should not be applied.
+    - Only if the Profit Margin is high then discount should be considered.
 
-•	**Promote sales of Product in Technology Category**
- - we deduced during our query that Technology category brings in the most sales so marketing every product under it
+- **Promote sales of Product in Technology Category**
+  
+  we deduced during our query that Technology category brings in the most sales so marketing every product under it
    1. Setting defined goals – Give each sales persons a target. A set number of items should be sold out by a set date
    2. Advertise new product to existing customers to try out
    3. Allow for upgrade of those items ordered when they bring it adding small incentives to appeal to them
    4. Ask for referrals and reviews for those items from returning Customers which could be drop on the store website
    5. Add New Payment Method such as instalment
+      
+- **Bundling products togethe**
+ it could be only Technology product or even an addition of other items sold in the store and packaging them as a set will result in more sales creating awareness for other product sold which can lead to an increase in sales/Revenue.
+
+ - **The Misuse and inconsistency of the Shipping method and order priority should be fixed**
+     - Revise Shipping Policy enforcing that:
+     -	Low priority or unspecified orders should go with a slower delivery method like the Delivery Truck, while
+     -	High or critical priority as the matter of urgency should go with a faster method like the Express air or Regular Air depending on what they can afford
+
+- **Revisit their shipping cost for each shipping method**
+A shipping cost should reflect Urgency and Customers expectations
+**Optimize Logistics** – we noticed during our Analysis that Regular Air method of shipping is more expensive than Express Air which is all wrong, considering by order of shipping method     Express Air is the most expensive.
+    - Ensure Shipping method matches urgency
+    - Ensure strict rule against undercharging Customers as regards the urgency of their order
+    - Introduce a system that double checks orders to be delivered and Flag mismatch Shipping Choices
+    - Payment should be according to urgency of order, number of orders, Product Container used for delivery then implement price list for shipping cost.
+      
+- **Celebrate our top Customers** 
+A great way to build loyalty and increase in repeat business
+    - A Personalized Thank You gift (a hand written thank you card, an Item customized with their name on it)
+    - Give them a Spotlight- customer of the year or month hall of fame.
+    - Start a Referral Reward Program
+    - Create a Top Tier Customer Reward 
 
 
 
