@@ -55,6 +55,26 @@ EDA involved the exploring of the data to answer some key questions such as;
 ### Data Analysis
 This includes some basic lines of Code or queries worked with 
 - Product Category with the highest Sale
+``` SQL
+     select top 1
+  Sales, Product_Category
+ from KMS_Sales_Table
+ order by Sales desc
+```
+      
+- Total sales in a specified region
+ ``` SQL
+       Select  Sum(Sales) AS TOTALSALES
+	Where Product_Sub_Category ='Appliances' and Region ='Ontario'
+  ```
+       
+- The method of shipping that cost the most
+``` SQL
+       SELECT TOP 1
+	Shipping_Cost, Ship_Mode
+	from KMS_Sales_Table
+```
+       
 
 ### Results/Findings
 This Analysis result is summarized as follow:
