@@ -42,14 +42,12 @@ EDA involved the exploring of the data to answer some key questions such as;
 
 ### Data Analysis
 This includes some basic lines of Code or queries worked with 
-
--  **Product Category with the highest Sales**
+- Product Category with the highest Sales
 ``` select top 1
      Sales, Product_Category
       from KMS_Sales_Table
      Order by Sales desc```
 
--  **Total Sales in a specified Region**
 
 
 
