@@ -95,7 +95,20 @@ A great way to build loyalty and increase in repeat business
     - A Personalized Thank You gift (a hand written thank you card, an Item customized with their name on it)
     - Give them a Spotlight- customer of the year or month hall of fame.
     - Start a Referral Reward Program
-    - Create a Top Tier Customer Reward 
+    - Create a Top Tier Customer Reward
+        1. Special exclusive discount
+        2. Early access to sales
+        3. Birthday or Anniversary gift(which could be a Shoutout)
+
+### Limitation
+
+It was a large data set with some column tha were not useful for my analysis. Unuseful column was not removed so as not to affect the original table instead view was created with a number of selected columns useful for understanding and interpreting my analysis.
+
+### Reference
+
+- DSA CLASS SERIES ON SQL
+- 
+
 
 
 
