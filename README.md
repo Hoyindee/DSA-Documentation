@@ -42,10 +42,17 @@ EDA involved the exploring of the data to answer some key questions such as;
 
 ### Data Analysis
 This includes some basic lines of Code or queries worked with 
+
+**Product Category with the highest Sales**
 ``` select top 1
   Sales, Product_Category
  from KMS_Sales_Table
  order by Sales desc```
+
+Total sales in a particular region (Ontario)
+```Select  Sum(Sales) AS TOTALSALES
+	Where Product_Sub_Category ='Appliances' and Region ='Ontario'
+
 
 
 
