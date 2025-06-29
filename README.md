@@ -76,7 +76,7 @@ This includes some basic lines of Code or queries worked with
 ```
 
 - Top 3 And Bottom 3 Region in terms of Sales
-   - Top 3 Region
+- Top 3 Region
 ``` SQL
       Select Top 3 
 Order_ID, Order_Quantity, Customer_Segment, Customer_Name, 
@@ -84,8 +84,7 @@ Order_ID, Order_Quantity, Customer_Segment, Customer_Name,
   FROM KMS_Sales_Table
   Order BY Sales desc
 ```
-
-  - Bottom 3 Region
+- Bottom 3 Region
 ``` SQL
       Select Top 3 
 order_ID, Order_Quantity, Customer_Segment, Customer_Name, 
@@ -109,6 +108,16 @@ Select Top 10
         Product_Category,Profit,Sales
 From KMS_Sales_Table
 Order by Profit DESC
+```
+- Customer That Returned Items And Segment They Belong To
+``` SQL
+	Select * from 
+		 [dbo].[Order_Status] as Ord
+		JOIN(
+	Select Order_ID,Customer_Name,Customer_Segment
+		   from KMS_Sales_Table) as KMS
+		ON Ord.Order_ID = KMS.Order_ID
+```
 
 ### Results/Findings
 This Analysis result is summarized as follow:
