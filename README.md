@@ -109,6 +109,7 @@ Select Top 10
 From KMS_Sales_Table
 Order by Profit DESC
 ```
+
 - Customer That Returned Items And Segment They Belong To
 ``` SQL
 	Select * from 
@@ -117,7 +118,14 @@ Order by Profit DESC
 	Select Order_ID,Customer_Name,Customer_Segment
 		   from KMS_Sales_Table) as KMS
 		ON Ord.Order_ID = KMS.Order_ID
+
+- Shipping Cost does Not Match Order Of Priority/Shipping Method
+``` SQL
+   Select Order_Quantity, Order_Priority, Ship_Mode, Shipping_cost
+     from vw_NEW_KMS_tbl
 ```
+
+
 
 ### Results/Findings
 This Analysis result is summarized as follow:
