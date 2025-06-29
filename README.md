@@ -100,7 +100,15 @@ order_ID, Order_Quantity, Customer_Segment, Customer_Name,
  KMS_Sales_Table
   where Year  (Order_Date) IN (2009,2010,2011,2012) and Customer_Segment = 'Corporate'
   Order by Order_Quantity desc
-  ```             
+  ```
+
+- Most Valuable Customers And Product they Purchase
+``` SQL
+Select Top 10
+       Customer_Name,Order_ID,Order_Quantity,Product_Name,
+        Product_Category,Profit,Sales
+From KMS_Sales_Table
+Order by Profit DESC
 
 ### Results/Findings
 This Analysis result is summarized as follow:
