@@ -83,15 +83,21 @@ Order_ID, Order_Quantity, Customer_Segment, Customer_Name,
   FROM KMS_Sales_Table
   Order BY Sales desc
 ```
-    - Bottom 3 Region
+  - Bottom 3 Region
 ``` SQL
       Select Top 3 
 order_ID, Order_Quantity, Customer_Segment, Customer_Name, 
        Product_Category, Product_Name, Region, Sales, Profit
   FROM KMS_Sales_Table 
   Order BY Sales ASC
-``` 
-               
+```
+- Corporate Customer That Placed Most Number Of Order In 2009 to 2012
+``` SQL
+ select Top 1 * FROM
+ KMS_Sales_Table
+  where Year  (Order_Date) IN (2009,2010,2011,2012) and Customer_Segment = 'Corporate'
+  Order by Order_Quantity desc
+  ```             
 
 ### Results/Findings
 This Analysis result is summarized as follow:
