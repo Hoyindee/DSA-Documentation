@@ -118,6 +118,7 @@ Order by Profit DESC
 	Select Order_ID,Customer_Name,Customer_Segment
 		   from KMS_Sales_Table) as KMS
 		ON Ord.Order_ID = KMS.Order_ID
+```
 
 - Shipping Cost does Not Match Order Of Priority/Shipping Method
 ``` SQL
@@ -125,6 +126,24 @@ Order by Profit DESC
      from vw_NEW_KMS_tbl
 ```
 
+- Bottom 10 Customers
+``` SQL
+ Select Top 10
+       Customer_Name,Order_ID,Order_Quantity,
+       Product_Name, Product_Category,Profit,Sales
+       From KMS_Sales_Table
+       Order by Profit ASC
+  ```
+
+- Small Business Owner With The Highest Sales
+``` SQL
+select top 1
+    Order_IDOrder_Quantity,Customer_Name,
+    Customer_Segment,Sales
+ FROM KMS_Sales_Table
+ where Customer_Segment = 'Small Business'
+ Order by Sales desc
+```
 
 
 ### Results/Findings
