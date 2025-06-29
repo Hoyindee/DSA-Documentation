@@ -70,11 +70,28 @@ This includes some basic lines of Code or queries worked with
        
 - The method of shipping that cost the most
 ``` SQL
-       SELECT TOP 1
+       Select Top 1
 	Shipping_Cost, Ship_Mode
 	from KMS_Sales_Table
 ```
-       
+- Top 3 And Bottom 3 Region in terms of Sales
+   - Top 3 Region
+``` SQL
+      Select Top 3 
+Order_ID, Order_Quantity, Customer_Segment, Customer_Name, 
+       Product_Category, Product_Name, Region, Sales, Profit
+  FROM KMS_Sales_Table
+  Order BY Sales desc
+```
+    - Bottom 3 Region
+``` SQL
+      Select Top 3 
+order_ID, Order_Quantity, Customer_Segment, Customer_Name, 
+       Product_Category, Product_Name, Region, Sales, Profit
+  FROM KMS_Sales_Table 
+  Order BY Sales ASC
+``` 
+               
 
 ### Results/Findings
 This Analysis result is summarized as follow:
