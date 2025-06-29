@@ -74,6 +74,7 @@ This includes some basic lines of Code or queries worked with
 	Shipping_Cost, Ship_Mode
 	from KMS_Sales_Table
 ```
+
 - Top 3 And Bottom 3 Region in terms of Sales
    - Top 3 Region
 ``` SQL
@@ -83,6 +84,7 @@ Order_ID, Order_Quantity, Customer_Segment, Customer_Name,
   FROM KMS_Sales_Table
   Order BY Sales desc
 ```
+
   - Bottom 3 Region
 ``` SQL
       Select Top 3 
@@ -91,6 +93,7 @@ order_ID, Order_Quantity, Customer_Segment, Customer_Name,
   FROM KMS_Sales_Table 
   Order BY Sales ASC
 ```
+
 - Corporate Customer That Placed Most Number Of Order In 2009 to 2012
 ``` SQL
  select Top 1 * FROM
