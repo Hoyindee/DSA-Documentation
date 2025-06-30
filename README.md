@@ -145,7 +145,7 @@ select top 1
  Order by Sales desc
 ```
 
-- Example of Mismathed Shipping Method due to Urgency potentially lead o returned Product
+- Example of Mismathed Shipping Method due to Urgency potentially Result to Product Returned and low or loss in Profit
 ``` SQL
 Select * from 
    [dbo].[Order_Status] as Ord
