@@ -145,6 +145,18 @@ select top 1
  Order by Sales desc
 ```
 
+- Example of Mismathed Shipping Method due to Urgency potentially lead o returned Product
+``` SQL
+Select * from 
+   [dbo].[Order_Status] as Ord
+   JOIN(
+  Select Order_ID, Order_Quantity,Order_Priority,
+  Ship_Mode,Shipping_Cost,Profit,Sales 
+   from KMS_Sales_Table) as KMS
+   ON Ord.Order_ID = KMS.Order_ID
+   where status = 'Returned' AND Profit < 3 And Order_Priority = 'Critical'
+```
+
 
 ### Results/Findings
 This Analysis result is summarized as follow:
