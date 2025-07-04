@@ -216,7 +216,7 @@ A great way to build loyalty and increase in repeat business
 
 ### Limitation
 
-It was a large data set with some column that were not useful for my analysis. A primary key could nptbe added to the main table and Unuseful column was not removed so as not to affect the original table instead view was created with a number of selected columns useful for understanding and interpreting my analysis.
+It was a large data set with some column that were not useful for my analysis. A Unique identifier could not be added to the main table and Unuseful column was not removed so as not to affect the original table instead view was created with a number of selected columns useful for understanding and interpreting my analysis.
 
 ### Reference
 
